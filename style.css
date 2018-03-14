@@ -1,0 +1,338 @@
+#container{
+    width: 1000px;
+    height: auto;
+    margin: 10px auto;
+    //top: 0px;
+    
+}
+#header{
+    font-size:30px;
+    color: brown;
+    width: 1000px;
+    text-align: left;
+    margin:4px auto; 
+    padding: 0px;
+    background-image: url(1.jpg);
+    background-size: cover;
+   
+}
+.menu{
+    position:relative;
+    width: 1000px;
+    height: 50px;
+    margin: 5px auto;
+    text-align: center;
+    background-color:ghostwhite ;
+    font-size: 16px;
+    font-weight: bold;
+    border:0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: #FEFCFD;
+}
+#mainbody{
+    
+    height: auto;
+    width: 830px;
+    border: 1px solid #F5F5F5;
+    margin:1px auto;
+    float: right;
+    
+}
+#leftmargin{
+    margin: 1px auto;
+    height: auto;
+    width: 140px;
+    float: left;
+    border: 0px solid black;
+    text-align: center;
+}
+#maincat{
+    white-space: normal;
+    height: auto;
+    display: block;
+    padding: 5px;
+    width: 127px;
+    margin:auto;
+}
+#maincat li{
+    list-style: none;
+    display: block;
+    width: 127px;
+    height: auto;
+    border: 2px solid #fff;
+    color: #ffffff;
+    font-family: helvetica;
+    font-size: 15px;
+    padding: 10px;
+    text-align: left;
+    background-color:aliceblue;
+    margin: auto;
+    
+}
+#maincat a{
+    color: brown;
+}
+#maincat li:hover{
+    background: ivory;
+    width: 127px;
+     -moz-box-shadow: 10px 5px 10px #ccc;
+        -webkit-box-shadow: 10px 5px 10px #ccc; 
+        box-shadow: 10px 0px 10px #ccc;
+
+}
+
+#caption{
+    text-align:left;
+    margin:auto;
+    font-size: 15px;
+    font-weight:normal;
+    padding: 5px;
+    background-color:white;
+    border: 0px solid #fff;
+    width: 127px;
+}
+#caption li{
+    list-style: none;
+    display:block;
+    width: 127px;
+    height: auto;
+    border: 1px solid #fff;
+    color: #ffffff;
+    font-family: helvetica;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color:ghostwhite;
+    margin: auto;
+    
+}
+#caption a{
+    color: black;
+}
+
+#caption li:hover {
+    opacity:1; 
+    text-align:center;
+    background-color:white;
+    -moz-box-shadow: 0px 5px 30px #ccc;
+    -webkit-box-shadow: 0px 5px 30px #ccc; 
+     box-shadow: 0px 5px 30px #ccc;
+}
+
+#box{
+    margin: 5px auto;
+    height: 140px;
+    width: 140px;
+    float: left;
+    border: 1px solid black;
+    background-color:papayawhip;
+    padding: 10px;
+}
+#product_box{
+    width: 820px;
+    margin-left: 10px ;
+    margin-bottom: 10px;
+
+}
+.single_product{float: left; 
+                    margin-left: 20px; 
+                    padding:10px; 
+                    margin-bottom: 20px;
+                    width: 230px;
+                    height: 400px;
+                    background-color:white;
+                    border: 0px solid snow;
+
+    }
+    .single_product:hover {
+        -moz-box-shadow: 0 0 10px #ccc;
+        -webkit-box-shadow: 0 0 10px #ccc; 
+        box-shadow: 0 0 10px #ccc; }
+
+.text{
+   
+    width:180px; 
+    height:10px; 
+    background:white; 
+    opacity:0; }
+
+.single_product:hover .text { 
+    opacity:0.7; 
+    text-align:center; 
+    color:#000000; 
+    font-size:10px; 
+    font-weight:10; 
+    font-family:"Times New Roman", Times, serif; 
+    padding:21px; }
+
+
+
+#detail_box{
+    width: 400px;
+    margin: auto;
+    border: 0px solid black;
+    float: right;
+}
+#detail_body{
+    width: 1000px;
+    margin: auto;
+    border: 0px solid black;
+    float: top;
+}
+#detail_pic{
+    width: 500px;
+    margin: auto;
+    border: 0px solid black;
+    float: left;
+}
+#detail_pic:hover{
+    border: 0px solid snow;
+}
+
+button1 {
+  color: #FFF;
+  background-color: orange;
+  font-size: 14px;
+  font-weight: bold;
+  width: 80px;
+  height: 40px;
+}
+
+#shopping_cart{
+    width:400px;
+    height:auto;
+    float: right;
+}
+
+#footer{
+    clear: both;
+    height: 100px;
+    border: 2px solid #F0F8FF;
+}
+.zoomin img { 
+    height: 500px; 
+    width: 500px; 
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    -webkit-transition: all 1s ease; 
+    -moz-transition: all 1s ease; 
+    -ms-transition: all 1s ease; 
+    transition: all 1s ease; 
+} 
+
+.zoomin img:hover {
+    width: 600px; 
+    height: 600px;
+}
+
+.zoomimg {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    padding: 0px 5px 0px 5px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all .5s ease;
+}
+.zoomimg:hover {
+    cursor: pointer;
+    background-size: 150% 150%;
+}
+
+.fader {
+    /* Giving equal sizes to each element */
+    width:    500px;
+    height:   500px;
+
+    /* Positioning elements in lines */
+    display:  inline-block;
+
+    /* This is necessary for position:absolute to work as desired */
+    position: relative;
+
+    /* Preventing zoomed images to grow outside their elements */
+    overflow: hidden; }
+
+
+    .fader img {
+        /* Stretching the images to fill whole elements */
+        width:       100%;
+        height:      100%;
+
+        /* Preventing blank space below the image */
+        line-height: 0;
+
+        /* A one-second transition was to disturbing for me */
+        -webkit-transition: all 0.3s ease;
+        -moz-transition:    all 0.3s ease;
+        -o-transition:      all 0.3s ease;
+        -ms-transition:     all 0.3s ease;
+        transition:         all 0.3s ease; }
+
+        .fader img:hover {
+            /* Making images appear bigger and transparent on mouseover */
+            opacity: 1;
+            width:   120%;
+            height:  120%; }
+
+    .fader .text {
+        /* Placing text behind images */
+        z-index: -10;     
+
+        /* Positioning text top-left conrner in the middle of elements */
+        position: absolute;
+        top:      50%;
+        left:     50%; }
+
+        .fader .text p {
+            /* Positioning text contents 50% left and top relative
+               to text container's top left corner */
+            margin-top:  -50%; 
+            margin-left: -50%; 
+        }
+.image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.image img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.image:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
+.box{
+    display: none;
+    width: 100%;
+}
+
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}    
+.container-1{
+  width: 200px;
+  height: 8px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  font-size: 20px;
+}
